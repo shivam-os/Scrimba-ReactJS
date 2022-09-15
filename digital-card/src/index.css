@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+  color: #FFFFFF;
+}
+
+/* Conatainer */
+.container {
+  width: 20rem;
+}
+
+/* Info section */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-section > img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: none;
+  object-position: 60% 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info-name {
+  font-size: 2rem;
+}
+
+.info-position {
+  color: #F3BF99;
+  font-size: 1rem;
+  margin-top: -1rem;
+}
+
+.info-website {
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.email {
+  background-color: #D1D5DB;
+  margin-right: 1rem;
+  color: #374151;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.info-button {
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  border: none;
+}
+
+/* About section */
+.about-section {
+  padding: 1.5rem 1.9rem 0 2rem;
+}
+
+.card-heading {
+  font-size: 1rem;
+}
+
+.card-paragraph {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+/* Interests section */
+.interests-section {
+  padding: 0.2rem 1.9rem 2rem 2rem;
+}
+
+/* Footer section */
+.footer-section {
+  background-color: #161619;
+  height: 4rem;
+}
