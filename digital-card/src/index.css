@@ -9,6 +9,7 @@ body {
   align-items: center;
   background-color: #23252C;
   color: #FFFFFF;
+  padding-top: 1rem;
 }
 
 /* Conatainer */
@@ -49,7 +50,7 @@ body {
 }
 
 .email {
-  background-color: #D1D5DB;
+  background-color: #FFFFFF;
   margin-right: 1rem;
   color: #374151;
 }
@@ -74,7 +75,7 @@ body {
 
 .info-button {
   font-size: 0.9rem;
-  padding: 0.4rem 1rem 0.4rem 1rem;
+  padding: 0.4rem 1.65rem 0.4rem 1.65rem;
   border-radius: 6px;
   font-weight: 500;
   margin-top: 0.5rem;
