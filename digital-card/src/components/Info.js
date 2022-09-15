@@ -9,8 +9,12 @@ export default function Info() {
       <p className="info-position">Frontend Developer</p>
       <p className="info-website">laurensmith.website</p>
       <div>
-        <button className="info-button email">Email</button>
-        <button className="info-button linkedin">LinkedIn</button>
+        <button className="info-button email">
+          <i class="fa fa-envelope"></i>Email
+          </button>
+        <button className="info-button linkedin">
+          <i class="fa fa-linkedin"></i>LinkedIn
+          </button>
       </div>
     </div>
   );

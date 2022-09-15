@@ -14,6 +14,7 @@ body {
 /* Conatainer */
 .container {
   width: 20rem;
+  background-color: #1A1B21;
 }
 
 /* Info section */
@@ -58,6 +59,19 @@ body {
   color: #FFFFFF;
 }
 
+.fa {
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+}
+
+.fa-envelope {
+  color: #1E1F26;
+}
+
+.fa-linkedin {
+  color: #FFFFFF;
+}
+
 .info-button {
   font-size: 0.9rem;
   padding: 0.4rem 1rem 0.4rem 1rem;
@@ -90,4 +104,14 @@ body {
 .footer-section {
   background-color: #161619;
   height: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #918E9B;
 }
