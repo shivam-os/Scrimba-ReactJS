@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  line-height: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ Header ------ */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 4rem;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+}
+
+.header--icon {
+  width: 1.5rem;
+  filter: invert(99%) sepia(3%) saturate(895%) hue-rotate(189deg) brightness(115%) contrast(100%);
+}
+
+/* ------ Card ------ */
+.cards--container {
+  max-width: 35rem;
+  margin: 3rem auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 12rem;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card--image--container {
+  width: 30%;
+}
+
+.card--locationImage {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.card--content--container {
+  width: 80%;
+  padding-top: 1rem;
+}
+
+.card--content--details {
+  display: flex;
+  align-items: center;
+  margin-bottom: -0.5rem;
+}
+
+.card--content--location {
+  color: #2B283A;
+  margin-left: 0.25rem;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.card--content--googleMap {
+  color: #918E9B;
+  margin-left: 1.5rem;
+}
+
+.card--locationIcon {
+  width: 0.5rem;
+  filter: invert(50%) sepia(77%) saturate(2037%) hue-rotate(324deg) brightness(96%) contrast(100%);
+}
+
+.card--content--heading {
+  font-size: 1.7rem;
+  color: #2B283A;
+}
+
+.card--content--dates {
+  color: #2B283A;
+  font-weight: 700;
+}
+
+.card--content--description {
+  color: #2B283A;
+  line-height: 1.1rem;
+}
